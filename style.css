@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    font-family: 'Sriracha', cursive;
+    background-color: #8D021F;
+}
+
+section{
+    width: 500px;
+    background-color: #A9A9A9;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+input,textarea{
+    margin-top: 10px 0px;
+}
+p,input[type="text"] , input[type="number"],textarea,form{
+    width: 350px;
+    padding: 10px 0
+}
+p,form{
+    margin: auto;
+}
+label,input{
+    display: block;
+}
+input[type="submit"]{
+ background-color:#8D021F; 
+ color: white; 
+ margin: auto; 
+ width: 250px;
+ border: black;
+ border-radius: 10px;
+ font-weight: bolder;
+ 
+}
+input[type="checkbox"]{
+ margin-left: 5px;
+ margin-right: 5px;
+}
